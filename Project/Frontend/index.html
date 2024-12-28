@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  
+<meta charset="UTF-8">
+  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+<title>Conference Management</title>
+  
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  
+<header>
+    
+<h1>Welcome to the International Research Conference</h1>
+  
+</header>
+
+  
+<main>
+    
+<section id="3d-section">
+      
+<div id="scene-container">
+        
+<canvas id="three-canvas"></canvas> <!-- 3D Canvas for interactive display -->
+      
+</div>
+    
+</section>
+
+    
+<div class="participant-dashboard">
+      
+<h2>Conference Schedule</h2>
+      
+<div id="schedule"></div>
+
+      
+<h2>Register for a Session</h2>
+      
+<form id="registerForm">
+        
+<input type="text" id="name" placeholder="Your Name" required />
+        
+<input type="email" id="email" placeholder="Your Email" required />
+        
+<button type="submit">Register</button>
+      
+</form>
+
+      
+<h2>Your QR Code</h2>
+      
+<div id="qrCode"></div>
+    
+ </main>
+
+  
+<script src="three.min.js"></script> <!-- 3D Model Library -->
+  
+<script src="script.js"></script>
+
+</body>
+
+</html>

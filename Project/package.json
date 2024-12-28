@@ -1,0 +1,27 @@
+﻿{
+  
+"name": "conference-management",
+  
+"version": "1.0.0",
+  
+"description": "Web-based Conference Management System",
+  
+"main": "backend/app.js",
+  
+"scripts": {
+    
+"start": "node backend/app.js"
+  
+},
+  
+"dependencies": {
+    
+"express": "^4.17.1",
+    
+"qrcode": "^1.5.0",
+    
+"body-parser": "^1.19.0"
+  
+}
+
+}
